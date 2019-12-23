@@ -2,6 +2,42 @@
 
 ---
 
+#### Prerequisites
+Before you begin, make sure your development environment includes `Node.js®` and an `npm` package manager.
+
+###### Node.js
+Angular requires `Node.js` version 8.x or 10.x.
+
+- To check your version, run `node -v` in a terminal/console window.
+- To get `Node.js`, go to [nodejs.org](https://nodejs.org/).
+
+###### Angular CLI
+Install the Angular CLI globally using a terminal/console window.
+```bash
+npm install -g @angular/cli
+```
+
+## Installation
+
+### Clone repo
+
+``` bash
+# clone the repo
+$ git clone https://github.com/coreui/coreui-free-angular-admin-template.git my-project
+
+# go into app's directory
+$ cd website
+
+# install app's dependencies
+$ npm install
+```
+
+## Usage
+
+``` bash
+# serve with hot reload at localhost:4200.
+$ ng serve
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
